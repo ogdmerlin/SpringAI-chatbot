@@ -3,7 +3,7 @@ version: '3.8'
 services:
   springboot-app:
     build: 
-      context: ./spring-boot-ai-chatbot
+      context: ./chatbot
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
