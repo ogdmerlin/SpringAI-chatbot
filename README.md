@@ -10,3 +10,21 @@ Interactive Chatbot: Engage with a chatbot to learn more about Spring AI and how
 Spring Boot Backend: A robust backend powered by Spring Boot, utilizing Spring AI for processing and generating responses using the OpenAI API.
 React Frontend: A user-friendly and responsive frontend built with React, providing an intuitive interface to interact with the chatbot.
 Dockerized Setup: Both the frontend and backend are containerized using Docker, allowing easy setup and deployment.
+
+# Tech Stack
+
+Backend:
+Java 17
+Spring Boot
+Spring AI
+OpenAI API
+
+Frontend:
+React
+HTML5 & CSS3
+Axios
+Nginx (for serving the React app)
+
+DevOps:
+Docker
+Docker Compose
