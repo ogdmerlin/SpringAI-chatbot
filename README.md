@@ -7,8 +7,11 @@ This project is a full-stack web application built with Spring Boot, Spring AI, 
 
 # Features
 Interactive Chatbot: Engage with a chatbot to learn more about Spring AI and how to integrate it with your Spring Boot applications.
+
 Spring Boot Backend: A robust backend powered by Spring Boot, utilizing Spring AI for processing and generating responses using the OpenAI API.
+
 React Frontend: A user-friendly and responsive frontend built with React, providing an intuitive interface to interact with the chatbot.
+
 Dockerized Setup: Both the frontend and backend are containerized using Docker, allowing easy setup and deployment.
 
 # Tech Stack
