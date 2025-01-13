@@ -17,7 +17,7 @@ services:
       context: ./chatbot-ui
       dockerfile: Dockerfile
     ports:
-      - "3000:80" # Serving on port 3000 (Nginx default port 80)
+      - "3000:80" 
     networks:
       - app-network
 
