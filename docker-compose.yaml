@@ -2,7 +2,7 @@
 version: '3.8'
 
 services:
-  springboot-app:
+  springboot-app: # Backend service configuration
     build: 
       context: ./chatbot
       dockerfile: Dockerfile
@@ -13,7 +13,7 @@ services:
     networks:
       - app-network
 
-  react-ui:
+  react-ui: # Frontend service configuration
     build: 
       context: ./chatbot-ui
       dockerfile: Dockerfile
