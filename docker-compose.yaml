@@ -1,8 +1,8 @@
-# Specifies the version of the Docker Compose file format
+# Specifies the version of the Docker Compose file format.
 version: '3.8'
 
 services:
-  springboot-app: # Backend service configuration
+  springboot-app: # Backend service configuration.
     build: 
       context: ./chatbot
       dockerfile: Dockerfile
@@ -13,7 +13,7 @@ services:
     networks:
       - app-network
 
-  react-ui: # Frontend service configuration
+  react-ui: # Frontend service configuration.
     build: 
       context: ./chatbot-ui
       dockerfile: Dockerfile
@@ -22,6 +22,6 @@ services:
     networks:
       - app-network
 
-networks:  # Define the custom network
+networks:  # Define the custom network.
   app-network:
     driver: bridge
